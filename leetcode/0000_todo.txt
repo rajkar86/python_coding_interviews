@@ -1,0 +1,35 @@
+# 315. Count of Smaller Numbers After Self
+
+# You are given an integer array nums and you have to return a new counts array. 
+# The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
+
+# Example:
+
+# Input: [5,2,6,1]
+# Output: [2,1,1,0] 
+# Explanation:
+# To the right of 5 there are 2 smaller elements (2 and 1).
+# To the right of 2 there is only 1 smaller element (1).
+# To the right of 6 there is 1 smaller element (1).
+# To the right of 1 there is 0 smaller element.
+
+#Counting inversions:
+# During merge sort, sum inversions in the left, right and during merge
+# while in merge, say you're filling from reverse, popping from right as long 
+# as it is higher. Anytime you have to move to left, the len of right array will 
+# be the num
+# Merge sort either the (index, value) pairs or
+# sort the index and compare using values on the fly
+
+=================================================================================
+
+https://leetcode.com/problems/implement-strstr/
+https://leetcode.com/problems/wildcard-matching/
+https://leetcode.com/problems/minimum-window-substring/
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+https://leetcode.com/problems/the-skyline-problem/
+
+Solve this: https://leetcode.com/problems/search-a-2d-matrix-ii/
+
+
+https://leetcode.com/problems/trapping-rain-water/solution/ (one-pass solution) left_max and right_max
